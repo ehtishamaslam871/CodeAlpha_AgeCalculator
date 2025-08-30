@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Age Calculator</h1>
+        <p class="description">Enter your date of birth to calculate your exact age in years, months, and days.</p>
+        
+        <div class="input-group">
+            <label for="day">Day</label>
+            <div class="date-inputs">
+                <div class="input-field">
+                    <input type="number" id="day" placeholder="DD" min="1" max="31">
+                    <div class="error" id="day-error">Please enter a valid day (1-31)</div>
+                </div>
+                <div class="input-field">
+                    <label for="month">Month</label>
+                    <input type="number" id="month" placeholder="MM" min="1" max="12">
+                    <div class="error" id="month-error">Please enter a valid month (1-12)</div>
+                </div>
+                <div class="input-field">
+                    <label for="year">Year</label>
+                    <input type="number" id="year" placeholder="YYYY" min="1900" max="2023">
+                    <div class="error" id="year-error">Please enter a valid year (1900-2023)</div>
+                </div>
+            </div>
+        </div>
+        
+        <button id="calculate-btn">Calculate Age</button>
+        
+        <div class="result" id="result">
+            <h3>Your Age Is</h3>
+            <div class="age-result" id="age-result"></div>
+        </div>
+        
+        <div class="footer">
+            <p>Web Development Task - Age Calculator</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
