@@ -16,6 +16,17 @@ A responsive web-based age calculator that accurately calculates and displays ag
 - **Keyboard Support**: Calculate age by pressing the Enter key
 - **Visual Feedback**: Attractive animations and hover effects
 
+## 📸 Preview
+
+
+<img width="1358" height="676" alt="Screenshot 2025-08-30 154620" src="https://github.com/user-attachments/assets/5cc09e87-64d4-435a-800e-29e645b4d4e1" />
+<img width="1362" height="676" alt="Screenshot 2025-08-30 154643" src="https://github.com/user-attachments/assets/7c306e04-c563-40a3-9975-d6d736f623fa" />
+<img width="1363" height="675" alt="Screenshot 2025-08-30 154708" src="https://github.com/user-attachments/assets/f27ff6bf-9967-457a-b37b-6d0da5319ab9" />
+<img width="1356" height="674" alt="Screenshot 2025-08-30 154801" src="https://github.com/user-attachments/assets/26a3768f-ade9-4e3a-9e35-d5488dc87bdc" />
+
+
+
+
 ## How to Use
 
 1. Open the `index.html` file in a web browser
